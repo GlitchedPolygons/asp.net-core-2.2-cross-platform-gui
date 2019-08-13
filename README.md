@@ -1,4 +1,7 @@
-[![License Shield](https://img.shields.io/badge/license-BSD%203--Clause-brightgreen?style=flat-square)](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/LICENSE)
+[![License Shield](https://img.shields.io/badge/license-BSD%203--Clause-brightgreen)](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/LICENSE)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/qn7m47t4bk7emsyu/branch/master?svg=true)](https://ci.appveyor.com/project/GlitchedPolygons/asp-net-core-2-2-cross-platform-gui/branch/master)
+[![Travis](https://travis-ci.org/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui.svg?branch=master)](https://travis-ci.org/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui)
+[![CircleCI](https://circleci.com/gh/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui.svg?style=shield)](https://circleci.com/gh/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui)
 
 # Create Cross-Platform GUI Applications 
 ## Use [ASP.NET Core 2.2](https://dotnet.microsoft.com/) and host it locally into a frontend like e.g. [Electron](https://github.com/electron/electron)
@@ -25,3 +28,6 @@ When you run the application, the included [mkcert](https://github.com/FiloSotti
 * * You can also use the [`Layout`](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/src/Models/Dummies/Layout.cs) dummy class to localize strings generally (inside the corresponding `Views.Shared._Layout.CULTURE_SPECIFIER.resx` file). In this case, `@inject IStringLocalizer<Layout>` into your `cshtml` views.
 * Document your code using appropriate xml docs.
 * To build the API documentation, execute the included [`build-docs.bat`](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/build-docs.bat) on Windows (or [`build-docs.sh`](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/build-docs.sh) on Linux/macOS respectively). The compiled documentation site should then be available to serve (e.g. via [github.io pages](https://github.io)) inside the `docs/` directory.
+---
+* Now you can activate your [AppVeyor](https://ci.appveyor.com), [CircleCI](https://circleci.com) and [Travis](https://travis-ci.org) Continuous Integration services and make them point to your repo; they will run the unit tests inside `tests/` and update the build status accordingly.
+* * Change the build status badge URLs to point to your CI setup at the top of this readme file.
