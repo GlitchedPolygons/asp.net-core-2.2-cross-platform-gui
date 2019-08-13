@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "CrossPlatformGUI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://127.0.0.1:19962;",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
