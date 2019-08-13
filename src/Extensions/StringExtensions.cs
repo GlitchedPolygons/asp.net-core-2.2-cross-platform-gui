@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 namespace CrossPlatformGUI.Extensions
 {
     /// <summary>
-    /// Extensions method for <see cref="System.String"/>s.
+    /// Extensions method for <c>string</c>s.
     /// </summary>
     public static class StringExtensions
     {
