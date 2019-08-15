@@ -1,9 +1,8 @@
-﻿<!--
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
     Copyright (c) 2019, Raphael Beck. All rights reserved.
     Use of this source code is governed by the BSD 3-Clause license that can be found in the repository root directory's LICENSE file.
 -->
-
-<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
